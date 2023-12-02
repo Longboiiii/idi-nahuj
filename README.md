@@ -1,2 +1,0 @@
-# idi-nahuj
-idi-nahuj
