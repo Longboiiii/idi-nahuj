@@ -17,11 +17,25 @@
 <p>IDI-NAHUI</p>
     <input type="text" placeholder="IDI-NAHUI">
 <button>IDI-NAHUI</button>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ4FDt5BDglQwklCdVIGaqBzxcrWj0a4Xvkg&usqp=CAU" alt="idi-nahui">
+    <div id="img-container">
+        <img src="giganigga.jpg" alt="giganigga">
+    </div>
     <style>
-      body{
-        background-color: blue;
-        color: yellow;
+      body {
+          background-color: blue;
+          color: yellow;
+      }
+      #img-container {
+          display: inline-block;
+              background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ4FDt5BDglQwklCdVIGaqBzxcrWj0a4Xvkg&usqp=CAU');
+      }
+      #img-container img{
+          opacity: 0;
+          transition: opacity ease-in-out 2s;
+      }
+      #img-container img:hover{
+          opacity: 1;
+
       }
     </style>
 </body>
